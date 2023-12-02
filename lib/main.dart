@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const title = 'WebSocket Demo';
+    const title = 'implement WebSocket Demo';
     return const MaterialApp(
       title: title,
       home: MyHomePage(
@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Form(
               child: TextFormField(
                 controller: _controller,
-                decoration: const InputDecoration(labelText: 'Send a message'),
+                decoration: const InputDecoration(labelText: 'Send  message'),
               ),
             ),
             const SizedBox(height: 24),
